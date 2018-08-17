@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		783E5F43200CBB4200B2B58D /* Border.png in Resources */ = {isa = PBXBuildFile; fileRef = 783E5F42200CBB4200B2B58D /* Border.png */; };
+		7861F2D51FEA4902001AC64C /* PS_BarCode_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7861F2D41FEA4902001AC64C /* PS_BarCode_ViewController.swift */; };
+		788672A5212691B9009BBE03 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 788672A0212691B9009BBE03 /* Info.plist */; };
+		788672A6212691B9009BBE03 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 788672A2212691B9009BBE03 /* Info.plist */; };
+		788672A82126C4CD009BBE03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E502891FE91C83003C23EF /* AppDelegate.swift */; };
+		78E5028F1FE91C83003C23EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E5028D1FE91C83003C23EF /* Main.storyboard */; };
+		78E502911FE91C83003C23EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E502901FE91C83003C23EF /* Assets.xcassets */; };
+		78E502941FE91C83003C23EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E502921FE91C83003C23EF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78E5029B1FE91C84003C23EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78E5027E1FE91C83003C23EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78E502851FE91C83003C23EF;
+			remoteInfo = Philips_Scanner;
+		};
+		78E502A61FE91C84003C23EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78E5027E1FE91C83003C23EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78E502851FE91C83003C23EF;
+			remoteInfo = Philips_Scanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		783E5F42200CBB4200B2B58D /* Border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Border.png; sourceTree = "<group>"; };
+		7861F2D41FEA4902001AC64C /* PS_BarCode_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PS_BarCode_ViewController.swift; path = ViewControllers/PS_BarCode_ViewController.swift; sourceTree = "<group>"; };
+		7886729F212691B9009BBE03 /* MyScannerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScannerTests.swift; sourceTree = "<group>"; };
+		788672A0212691B9009BBE03 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788672A2212691B9009BBE03 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788672A3212691B9009BBE03 /* MyScannerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScannerUITests.swift; sourceTree = "<group>"; };
+		78E502861FE91C83003C23EF /* MyScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E502891FE91C83003C23EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78E5028E1FE91C83003C23EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78E502901FE91C83003C23EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78E502931FE91C83003C23EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78E502951FE91C83003C23EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E5029A1FE91C84003C23EF /* MyScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E502A51FE91C84003C23EF /* MyScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78E502831FE91C83003C23EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E502971FE91C84003C23EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E502A21FE91C84003C23EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7886729E212691B9009BBE03 /* MyScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7886729F212691B9009BBE03 /* MyScannerTests.swift */,
+				788672A0212691B9009BBE03 /* Info.plist */,
+			);
+			path = MyScannerTests;
+			sourceTree = "<group>";
+		};
+		788672A1212691B9009BBE03 /* MyScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				788672A2212691B9009BBE03 /* Info.plist */,
+				788672A3212691B9009BBE03 /* MyScannerUITests.swift */,
+			);
+			path = MyScannerUITests;
+			sourceTree = "<group>";
+		};
+		78E5027D1FE91C83003C23EF = {
+			isa = PBXGroup;
+			children = (
+				78E502881FE91C83003C23EF /* MyScanner */,
+				7886729E212691B9009BBE03 /* MyScannerTests */,
+				788672A1212691B9009BBE03 /* MyScannerUITests */,
+				78E502871FE91C83003C23EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78E502871FE91C83003C23EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78E502861FE91C83003C23EF /* MyScanner.app */,
+				78E5029A1FE91C84003C23EF /* MyScannerTests.xctest */,
+				78E502A51FE91C84003C23EF /* MyScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78E502881FE91C83003C23EF /* MyScanner */ = {
+			isa = PBXGroup;
+			children = (
+				78E502891FE91C83003C23EF /* AppDelegate.swift */,
+				7861F2D41FEA4902001AC64C /* PS_BarCode_ViewController.swift */,
+				78E5028D1FE91C83003C23EF /* Main.storyboard */,
+				78E502901FE91C83003C23EF /* Assets.xcassets */,
+				78E502921FE91C83003C23EF /* LaunchScreen.storyboard */,
+				78E502951FE91C83003C23EF /* Info.plist */,
+				783E5F42200CBB4200B2B58D /* Border.png */,
+			);
+			path = MyScanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78E502851FE91C83003C23EF /* MyScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E502AE1FE91C84003C23EF /* Build configuration list for PBXNativeTarget "MyScanner" */;
+			buildPhases = (
+				78E502821FE91C83003C23EF /* Sources */,
+				78E502831FE91C83003C23EF /* Frameworks */,
+				78E502841FE91C83003C23EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyScanner;
+			productName = Philips_Scanner;
+			productReference = 78E502861FE91C83003C23EF /* MyScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78E502991FE91C84003C23EF /* MyScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E502B11FE91C84003C23EF /* Build configuration list for PBXNativeTarget "MyScannerTests" */;
+			buildPhases = (
+				17A422A06180636CBB029D00 /* [CP] Check Pods Manifest.lock */,
+				78E502961FE91C84003C23EF /* Sources */,
+				78E502971FE91C84003C23EF /* Frameworks */,
+				78E502981FE91C84003C23EF /* Resources */,
+				DEBF0BB9CE1F31181A8AD9F2 /* [CP] Embed Pods Frameworks */,
+				0FAFFD21C9CADAF1F4E0B48B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78E5029C1FE91C84003C23EF /* PBXTargetDependency */,
+			);
+			name = MyScannerTests;
+			productName = Philips_ScannerTests;
+			productReference = 78E5029A1FE91C84003C23EF /* MyScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78E502A41FE91C84003C23EF /* MyScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E502B41FE91C84003C23EF /* Build configuration list for PBXNativeTarget "MyScannerUITests" */;
+			buildPhases = (
+				512368D9DDE1E28E988086EA /* [CP] Check Pods Manifest.lock */,
+				78E502A11FE91C84003C23EF /* Sources */,
+				78E502A21FE91C84003C23EF /* Frameworks */,
+				78E502A31FE91C84003C23EF /* Resources */,
+				2D57C276C916DD011AFD3C9F /* [CP] Embed Pods Frameworks */,
+				514EF1254FA77B551E69CE39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78E502A71FE91C84003C23EF /* PBXTargetDependency */,
+			);
+			name = MyScannerUITests;
+			productName = Philips_ScannerUITests;
+			productReference = 78E502A51FE91C84003C23EF /* MyScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78E5027E1FE91C83003C23EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Manjunath Shivakumara";
+				TargetAttributes = {
+					78E502851FE91C83003C23EF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					78E502991FE91C84003C23EF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78E502851FE91C83003C23EF;
+					};
+					78E502A41FE91C84003C23EF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78E502851FE91C83003C23EF;
+					};
+				};
+			};
+			buildConfigurationList = 78E502811FE91C83003C23EF /* Build configuration list for PBXProject "MyScanner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78E5027D1FE91C83003C23EF;
+			productRefGroup = 78E502871FE91C83003C23EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78E502851FE91C83003C23EF /* MyScanner */,
+				78E502991FE91C84003C23EF /* MyScannerTests */,
+				78E502A41FE91C84003C23EF /* MyScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78E502841FE91C83003C23EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E502941FE91C83003C23EF /* LaunchScreen.storyboard in Resources */,
+				78E502911FE91C83003C23EF /* Assets.xcassets in Resources */,
+				788672A6212691B9009BBE03 /* Info.plist in Resources */,
+				78E5028F1FE91C83003C23EF /* Main.storyboard in Resources */,
+				788672A5212691B9009BBE03 /* Info.plist in Resources */,
+				783E5F43200CBB4200B2B58D /* Border.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E502981FE91C84003C23EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E502A31FE91C84003C23EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FAFFD21C9CADAF1F4E0B48B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Philips_ScannerTests/Pods-Philips_ScannerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17A422A06180636CBB029D00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Philips_ScannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D57C276C916DD011AFD3C9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Philips_ScannerUITests/Pods-Philips_ScannerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		512368D9DDE1E28E988086EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Philips_ScannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		514EF1254FA77B551E69CE39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Philips_ScannerUITests/Pods-Philips_ScannerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBF0BB9CE1F31181A8AD9F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Philips_ScannerTests/Pods-Philips_ScannerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78E502821FE91C83003C23EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788672A82126C4CD009BBE03 /* AppDelegate.swift in Sources */,
+				7861F2D51FEA4902001AC64C /* PS_BarCode_ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E502961FE91C84003C23EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E502A11FE91C84003C23EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78E5029C1FE91C84003C23EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78E502851FE91C83003C23EF /* MyScanner */;
+			targetProxy = 78E5029B1FE91C84003C23EF /* PBXContainerItemProxy */;
+		};
+		78E502A71FE91C84003C23EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78E502851FE91C83003C23EF /* MyScanner */;
+			targetProxy = 78E502A61FE91C84003C23EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78E5028D1FE91C83003C23EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78E5028E1FE91C83003C23EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78E502921FE91C83003C23EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78E502931FE91C83003C23EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78E502AC1FE91C84003C23EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78E502AD1FE91C84003C23EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78E502AF1FE91C84003C23EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ254T2RPN;
+				INFOPLIST_FILE = MyScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philips.breatheMapperPOC.scanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78E502B01FE91C84003C23EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ254T2RPN;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = MyScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philips.breatheMapperPOC.scanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78E502B21FE91C84003C23EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Philips_ScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Philips.Philips-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyScanner.app/MyScanner";
+			};
+			name = Debug;
+		};
+		78E502B31FE91C84003C23EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Philips_ScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Philips.Philips-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyScanner.app/MyScanner";
+			};
+			name = Release;
+		};
+		78E502B51FE91C84003C23EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Philips_ScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Philips.Philips-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Philips_Scanner;
+			};
+			name = Debug;
+		};
+		78E502B61FE91C84003C23EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Philips_ScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Philips.Philips-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Philips_Scanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78E502811FE91C83003C23EF /* Build configuration list for PBXProject "MyScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E502AC1FE91C84003C23EF /* Debug */,
+				78E502AD1FE91C84003C23EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E502AE1FE91C84003C23EF /* Build configuration list for PBXNativeTarget "MyScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E502AF1FE91C84003C23EF /* Debug */,
+				78E502B01FE91C84003C23EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E502B11FE91C84003C23EF /* Build configuration list for PBXNativeTarget "MyScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E502B21FE91C84003C23EF /* Debug */,
+				78E502B31FE91C84003C23EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E502B41FE91C84003C23EF /* Build configuration list for PBXNativeTarget "MyScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E502B51FE91C84003C23EF /* Debug */,
+				78E502B61FE91C84003C23EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78E5027E1FE91C83003C23EF /* Project object */;
+}

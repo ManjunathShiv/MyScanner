@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fbc-Gs-kKE">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Scan-->
+        <scene sceneID="OGN-2G-dcc">
+            <objects>
+                <viewController storyboardIdentifier="PS_BarCode_ViewController" id="Brx-dB-793" customClass="PS_BarCode_ViewController" customModule="MyScanner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9i1-iS-JqT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Krl-Mt-jlp">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPY-XI-940">
+                                <rect key="frame" x="187" y="334" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.20152925669999999" blue="0.01164867097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Krl-Mt-jlp" firstAttribute="top" secondItem="xvx-i2-Web" secondAttribute="top" id="0TW-xI-Pr7"/>
+                            <constraint firstItem="FPY-XI-940" firstAttribute="centerY" secondItem="9i1-iS-JqT" secondAttribute="centerY" id="3BN-GD-nbC"/>
+                            <constraint firstItem="Krl-Mt-jlp" firstAttribute="leading" secondItem="xvx-i2-Web" secondAttribute="leading" id="6ex-Cg-Wok"/>
+                            <constraint firstItem="Krl-Mt-jlp" firstAttribute="trailing" secondItem="xvx-i2-Web" secondAttribute="trailing" id="Ba3-2T-5QN"/>
+                            <constraint firstItem="FPY-XI-940" firstAttribute="centerX" secondItem="xvx-i2-Web" secondAttribute="centerX" id="FDi-or-zuP"/>
+                            <constraint firstItem="xvx-i2-Web" firstAttribute="bottom" secondItem="Krl-Mt-jlp" secondAttribute="bottom" constant="49" id="WuA-fs-co6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xvx-i2-Web"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Scan" id="RTy-jn-QWK"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="barMessageLabel" destination="FPY-XI-940" id="yZe-nP-sf7"/>
+                        <outlet property="scanView" destination="Krl-Mt-jlp" id="ACA-i9-Oq9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xLm-fW-ccQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704.79999999999995" y="35.532233883058474"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rmu-Ik-HaB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fbc-Gs-kKE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YLf-LE-4hm">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Brx-dB-793" kind="relationship" relationship="rootViewController" id="LSx-j7-GbW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vuN-qg-mDD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-138" y="36"/>
+        </scene>
+    </scenes>
+</document>
